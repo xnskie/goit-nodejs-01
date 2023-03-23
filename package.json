@@ -1,0 +1,33 @@
+{
+  "name": "goit-nodejs-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index",
+    "list": "node index.js --action='list'",
+    "get": "node index.js --action='get' --id=5",
+    "add": "node index.js --action='add' --name='Mango' --email='mango@gmail.com' --phone='322-22-22'",
+    "remove": "node index.js --action='remove' --id=3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xnskie/goit-nodejs-01.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xnskie/goit-nodejs-01/issues"
+  },
+  "homepage": "https://github.com/xnskie/goit-nodejs-01#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "uuid": "^9.0.0",
+    "yargs": "^17.7.1"
+  }
+}
